@@ -1,0 +1,36 @@
+.container-explore {
+    margin-top: 100px;
+    background-color: var(--azul-escuro);
+    z-index: 0;
+
+    .container-titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #ffffff31;
+
+        .pixel-art {
+            background-image: var(--pixel_art-info);
+            background-position: center -9px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: drop-shadow(2px 2px 2px #000000b4);
+            width: 100px;
+            height: 100px;
+        }
+
+        .text {
+            font-size: var(--font-size-l);
+            color: #cfcfcf;
+        }
+    }
+
+    .container-info {
+        padding: 40px;
+        color: #cfcfcf;
+        .l {
+            font-size: var(--font-size-l);
+        }
+    }
+}

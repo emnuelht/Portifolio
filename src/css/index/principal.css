@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+    background-image: url('../../img/fundo.png');
+    background-size: 90%;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.principal {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-boas-vindas {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-size: 35pt;
+
+        .texto-l1 {
+            color: var(--verde);
+            font-weight: bold;
+            line-height: 25px;
+        }
+    
+        .texto-l2 {
+            .esq::before {
+                content: '<';
+                color: var(--azul);
+                font-weight: bold;
+            }
+    
+            .dir::after {
+                content: '/>';
+                color: var(--azul);
+                font-weight: bold;
+            }
+        }
+    
+        .texto-l3 {
+            font-size: 20pt;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            width: 200px;
+            text-decoration: none;
+
+            .btn-ver_mais {
+                background: #000000;
+                color: #fff;
+                font-size: 15pt;
+                padding: 10px 40px;
+                border: none;
+                box-shadow: 4px 4px 0 #00FF57,
+                            -4px -4px 0 #0066FF;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: .6s;
+            }
+    
+            .btn-ver_mais:hover {
+                box-shadow: 1px 1px 0 #00ff555a,
+                            -1px -1px 0 #0066ff5a;
+            }
+        }
+    }
+
+    .container-my_pixel_art {
+        .fundo-img {
+            background-color: var(--verde);
+            border-radius: 100%;
+            box-shadow: inset 0 15px 30px;
+            overflow: hidden;
+            width: 15rem;
+            height: 15rem;
+            position: relative;
+
+            .pixel_art {
+                background-image: var(--pixel_art);
+                background-size: 385px;
+                background-repeat: no-repeat;
+                background-position: center -36px;
+                width: 20rem;
+                height: 20rem;
+                filter: drop-shadow(5px 5px 3px #0000009c);
+
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+
+    }
+}
+

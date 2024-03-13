@@ -1,0 +1,30 @@
+.fundo {
+    height: 200vh;
+}
+
+.container-minhas-infos {
+
+    .container-infos {
+        margin-top: 80px;
+        color: #fff;
+        padding: 0 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .titulo {
+                font-size: 20pt;
+                color: var(--verde);
+            }
+
+            .l {
+                font-size: var(--font-size-l);
+            }
+        }
+    }
+}

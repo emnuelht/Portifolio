@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /* CORES */
+    --verde: #00FF57;
+    --verde-op: #00ff5546;
+    --header-azul: #92BEFF;
+    --azul: #0066FF;
+    --azul-escuro: #00112A;
+
+    /* IMAGENS */
+    --pixel_art: url('../../img/my-pixel_art.png');
+    --pixel_art-info: url('../../img/pixel-art-info.png');
+
+    /* FONTS */
+    --font-size-l: 17pt;
+}

@@ -1,0 +1,32 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    
+    .material-symbols-outlined {
+        user-select: none;
+        color: var(---verde);
+        font-size: 20pt;
+    }
+
+    .container-nav {
+        font-weight: bold;
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        
+        .link-nav {
+            color: var(--header-azul);
+            text-decoration: none;
+            transition: .5s;
+        }
+
+        .link-nav:hover {
+            color: var(--azul);
+        }
+    }
+}
+
